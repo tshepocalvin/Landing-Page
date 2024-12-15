@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header a:visited, a:link{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: auto 0;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+header h1{
+    font-size: 24px;
+}
+
+.navigation{
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+}
+.nav-links{
+    margin-left: auto;
+}
+
+/* Hero */
+
+.hero{
+    padding: 70px 100px;
+    background-color: #1F2937;
+    display: flex;
+    gap: 30px;
+    color: #E5E7EB;
+}
+
+.hero-left, .hero-right{
+    flex: 1;
+}
+
+.hero h2{
+    color: #F9FAF8;
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.hero .booknow{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 30px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.hero img{
+    border-radius: 5px;
+}
+
+/* Services */
+
+.services{
+    text-align: center;
+    padding: 60px 100px;
+}
+
+.services h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.cards-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cards-container img{
+    border-radius: 5px;
+}
+
+.cards-container p{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.card{
+    background-color: rgb(236, 235, 235);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 30px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* testimonals */
+
+.testimonials{
+    background-color: #E5E7EB;
+    padding: 70px 200px;
+}
+
+.testimonials .customer-name{
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.testimonials .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+}
